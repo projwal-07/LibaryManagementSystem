@@ -143,7 +143,7 @@ public class Library {
         if (m == null || b == null) { System.out.println("❌ Invalid ID."); return; }
         b.setAvailable(true);
         m.returnBook();
-        System.out.println("✅ Book returned successfully.");
+        System.out.println("✅ Book is returned successfully.");
     }
 
     // ── BORROW QUEUE & EVALUATION ──────────────────────
